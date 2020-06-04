@@ -1,4 +1,6 @@
 ﻿using System;
+using Golf;
+using Golf.GolfGear;
 
 namespace Patterns
 {
@@ -6,7 +8,9 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GolfBag bag = new GolfBag("TestBag");
+
+            Console.WriteLine(bag.ToString());
         }
     }
 }
