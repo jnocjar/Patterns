@@ -1,6 +1,5 @@
 ﻿using System;
-using Golf;
-using Golf.GolfGear;
+using Nocjar.Golf;
 
 namespace Patterns
 {
@@ -8,9 +7,11 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            GolfBag bag = new GolfBag("TestBag");
+            GolfBag bag1 = new GolfBag("Bag1");
+            GolfBag bag2 = new GolfBag("Bag2");
 
-            Console.WriteLine(bag.ToString());
+            Console.WriteLine(bag1.ToString());
+            Console.WriteLine(bag2.ToString());
         }
     }
 }
